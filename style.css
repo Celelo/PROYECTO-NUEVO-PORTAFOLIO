@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav[class*="nav-menu"] {
+    background-color:  rgb(48, 27, 27);
+}
+
+ul li {
+    cursor: pointer;
+    font-weight: 500;
+    transition: background ease 0.2s;
+    font-size: 18px;
+    
+}
+
+ul li:hover {
+    border-bottom: 2px solid #7a5553;
+    color: white;
+}
